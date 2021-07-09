@@ -1,0 +1,36 @@
+{
+	"name": "andreybrigunet/flarum-ext-auth-easy4live",
+	"description": "Allow users to log in through easy4live.com.",
+	"type": "flarum-extension",
+	"keywords": [
+		"authentication"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "andreybrigunet",
+			"email": "andreybrigunet@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/andreybrigunet/flarum-ext-auth-easy4live"
+	},
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"AndreyBrigunet\\Flarum\\Auth\\": "src/"
+		}
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Easy4Live login",
+			"icon": {
+				"name": "fas fa-people-arrows",
+				"backgroundColor": "#FE2584",
+				"color": "#fff"
+			}
+		}
+	}
+}
