@@ -1,0 +1,7 @@
+.editorconfig
+js/node_modules
+vendor/
+composer.lock
+.idea
+docker/.docker.conf
+flarum
