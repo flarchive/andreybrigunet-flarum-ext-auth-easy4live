@@ -1,0 +1,11 @@
+andreybrigunet-auth-easy4live:
+  forum:
+    log_in_with: "Log in with {server}"
+    log_out: => core.ref.log_out
+    email_placeholder: Email
+  admin:
+    settings:
+      method_name: LDAP server name (will appear after "Login with")
+      domain: Domain
+      request: Request
+      onlyUse: Hide Flarum standard login method
