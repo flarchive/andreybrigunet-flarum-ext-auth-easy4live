@@ -1,0 +1,36 @@
+{
+	"name": "andreybrigunet/flarum-ext-auth-easy4live",
+	"description": "Allow users to log in through LDAP.",
+	"type": "flarum-extension",
+	"keywords": [
+		"authentication"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "andreybrigunet",
+			"email": "andreybrigunet@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/andreybrigunet/flarum-ext-auth-easy4live"
+	},
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TitusPiJean\\Flarum\\Auth\\LDAP\\": "src/"
+		}
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Easy4Live login",
+			"icon": {
+				"name": "far fa-address-book",
+				"backgroundColor": "#b15959",
+				"color": "#fff"
+			}
+		}
+	}
+}
