@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@andreybrigunet/auth-easy4live",
+  "dependencies": {
+    "flarum-webpack-config": "^3.0.4",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  }
+}
